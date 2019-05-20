@@ -1,0 +1,125 @@
+﻿  WeatherTool.cpp
+c:\users\mrchr\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\mrchr\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(65): warning C4018: '<': signed/unsigned mismatch
+c:\users\mrchr\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(89): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4244: 'initializing': conversion from '_Ty' to '_Objty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Objty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(164): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int&>(_Alloc &,_Objty *const ,int &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(164): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int&>(_Alloc &,_Objty *const ,int &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(190): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)' being compiled
+          with
+          [
+              _FwdIt=float *,
+              _Alloc=std::allocator<float>,
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(190): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)' being compiled
+          with
+          [
+              _FwdIt=float *,
+              _Alloc=std::allocator<float>,
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xmemory(217): note: see reference to function template instantiation '_FwdIt std::_Uninitialized_copy_al_unchecked<_Ty*,float*,_Alloc>(_InIt,const _InIt,const _FwdIt,_Alloc &,std::_General_ptr_iterator_tag,std::_Any_tag)' being compiled
+          with
+          [
+              _FwdIt=float *,
+              _Ty=int,
+              _Alloc=std::allocator<float>,
+              _InIt=int *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1823): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_copy<_Iter,float*,std::allocator<_Ty>>(const _InIt,const _InIt,_FwdIt,_Alloc &)' being compiled
+          with
+          [
+              _FwdIt=float *,
+              _Iter=int *,
+              _Ty=float,
+              _InIt=int *,
+              _Alloc=std::allocator<float>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1161): note: see reference to function template instantiation 'float *std::vector<float,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,float *)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=int *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1161): note: see reference to function template instantiation 'float *std::vector<float,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,float *)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=int *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1261): note: see reference to function template instantiation 'void std::vector<float,std::allocator<_Ty>>::_Insert_range<int*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=int *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1261): note: see reference to function template instantiation 'void std::vector<float,std::allocator<_Ty>>::_Insert_range<int*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=int *
+          ]
+  c:\users\mrchr\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(177): note: see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,void>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<cl_context_properties>>>
+          ]
+  c:\users\mrchr\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(177): note: see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>,void>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=float,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<cl_context_properties>>>
+          ]
+c:\users\mrchr\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(216): warning C4715: 'RunKernel': not all control paths return a value
+WeatherTool.obj : error LNK2019: unresolved external symbol _clGetPlatformIDs@12 referenced in function "public: static int __cdecl cl::Platform::get(class std::vector<class cl::Platform,class std::allocator<class cl::Platform> > *)" (?get@Platform@cl@@SAHPAV?$vector@VPlatform@cl@@V?$allocator@VPlatform@cl@@@std@@@std@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clGetPlatformInfo@20 referenced in function "unsigned int __cdecl cl::detail::getPlatformVersion(struct _cl_platform_id *)" (?getPlatformVersion@detail@cl@@YAIPAU_cl_platform_id@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clGetDeviceIDs@24 referenced in function "public: int __thiscall cl::Platform::getDevices(unsigned __int64,class std::vector<class cl::Device,class std::allocator<class cl::Device> > *)const " (?getDevices@Platform@cl@@QBEH_KPAV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clGetDeviceInfo@20 referenced in function "unsigned int __cdecl cl::detail::getDevicePlatformVersion(struct _cl_device_id *)" (?getDevicePlatformVersion@detail@cl@@YAIPAU_cl_device_id@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clRetainDevice@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_device_id *>::retain(struct _cl_device_id *)" (?retain@?$ReferenceHandler@PAU_cl_device_id@@@detail@cl@@SAHPAU_cl_device_id@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clReleaseDevice@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_device_id *>::release(struct _cl_device_id *)" (?release@?$ReferenceHandler@PAU_cl_device_id@@@detail@cl@@SAHPAU_cl_device_id@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clCreateContext@24 referenced in function "public: __thiscall cl::Context::Context(class cl::Device const &,int *,void (__stdcall*)(char const *,void const *,unsigned int,void *),void *,int *)" (??0Context@cl@@QAE@ABVDevice@1@PAHP6GXPBDPBXIPAX@Z41@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clRetainContext@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_context *>::retain(struct _cl_context *)" (?retain@?$ReferenceHandler@PAU_cl_context@@@detail@cl@@SAHPAU_cl_context@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clReleaseContext@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_context *>::release(struct _cl_context *)" (?release@?$ReferenceHandler@PAU_cl_context@@@detail@cl@@SAHPAU_cl_context@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clGetContextInfo@20 referenced in function "public: int __thiscall cl::Context::getInfo<class std::vector<class cl::Device,class std::allocator<class cl::Device> > >(unsigned int,class std::vector<class cl::Device,class std::allocator<class cl::Device> > *)const " (??$getInfo@V?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@@Context@cl@@QBEHIPAV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clCreateCommandQueue@20 referenced in function "public: __thiscall cl::CommandQueue::CommandQueue(class cl::Context const &,unsigned __int64,int *)" (??0CommandQueue@cl@@QAE@ABVContext@1@_KPAH@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clRetainCommandQueue@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_command_queue *>::retain(struct _cl_command_queue *)" (?retain@?$ReferenceHandler@PAU_cl_command_queue@@@detail@cl@@SAHPAU_cl_command_queue@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clReleaseCommandQueue@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_command_queue *>::release(struct _cl_command_queue *)" (?release@?$ReferenceHandler@PAU_cl_command_queue@@@detail@cl@@SAHPAU_cl_command_queue@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clCreateBuffer@24 referenced in function "public: __thiscall cl::Buffer::Buffer(class cl::Context const &,unsigned __int64,unsigned int,void *,int *)" (??0Buffer@cl@@QAE@ABVContext@1@_KIPAXPAH@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clReleaseMemObject@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_mem *>::release(struct _cl_mem *)" (?release@?$ReferenceHandler@PAU_cl_mem@@@detail@cl@@SAHPAU_cl_mem@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clCreateProgramWithSource@20 referenced in function "public: __thiscall cl::Program::Program(class cl::Context const &,class std::vector<struct std::pair<char const *,unsigned int>,class std::allocator<struct std::pair<char const *,unsigned int> > > const &,int *)" (??0Program@cl@@QAE@ABVContext@1@ABV?$vector@U?$pair@PBDI@std@@V?$allocator@U?$pair@PBDI@std@@@2@@std@@PAH@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clRetainProgram@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_program *>::retain(struct _cl_program *)" (?retain@?$ReferenceHandler@PAU_cl_program@@@detail@cl@@SAHPAU_cl_program@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clReleaseProgram@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_program *>::release(struct _cl_program *)" (?release@?$ReferenceHandler@PAU_cl_program@@@detail@cl@@SAHPAU_cl_program@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clBuildProgram@24 referenced in function "public: int __thiscall cl::Program::build(char const *,void (__stdcall*)(struct _cl_program *,void *),void *)const " (?build@Program@cl@@QBEHPBDP6GXPAU_cl_program@@PAX@Z2@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clCreateKernel@12 referenced in function "public: __thiscall cl::Kernel::Kernel(class cl::Program const &,char const *,int *)" (??0Kernel@cl@@QAE@ABVProgram@1@PBDPAH@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clReleaseKernel@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_kernel *>::release(struct _cl_kernel *)" (?release@?$ReferenceHandler@PAU_cl_kernel@@@detail@cl@@SAHPAU_cl_kernel@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clSetKernelArg@16 referenced in function "public: int __thiscall cl::Kernel::setArg<class cl::Buffer>(unsigned int,class cl::Buffer const &)" (??$setArg@VBuffer@cl@@@Kernel@cl@@QAEHIABVBuffer@1@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clReleaseEvent@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_event *>::release(struct _cl_event *)" (?release@?$ReferenceHandler@PAU_cl_event@@@detail@cl@@SAHPAU_cl_event@@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clGetEventProfilingInfo@20 referenced in function "public: int __thiscall cl::Event::getProfilingInfo<unsigned __int64>(unsigned int,unsigned __int64 *)const " (??$getProfilingInfo@_K@Event@cl@@QBEHIPA_K@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clEnqueueReadBuffer@36 referenced in function "public: int __thiscall cl::CommandQueue::enqueueReadBuffer(class cl::Buffer const &,unsigned int,unsigned int,unsigned int,void *,class std::vector<class cl::Event,class std::allocator<class cl::Event> > const *,class cl::Event *)const " (?enqueueReadBuffer@CommandQueue@cl@@QBEHABVBuffer@2@IIIPAXPBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@std@@PAVEvent@2@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clEnqueueWriteBuffer@36 referenced in function "public: int __thiscall cl::CommandQueue::enqueueWriteBuffer(class cl::Buffer const &,unsigned int,unsigned int,unsigned int,void const *,class std::vector<class cl::Event,class std::allocator<class cl::Event> > const *,class cl::Event *)const " (?enqueueWriteBuffer@CommandQueue@cl@@QBEHABVBuffer@2@IIIPBXPBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@std@@PAVEvent@2@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clEnqueueFillBuffer@36 referenced in function "public: int __thiscall cl::CommandQueue::enqueueFillBuffer<int>(class cl::Buffer const &,int,unsigned int,unsigned int,class std::vector<class cl::Event,class std::allocator<class cl::Event> > const *,class cl::Event *)const " (??$enqueueFillBuffer@H@CommandQueue@cl@@QBEHABVBuffer@1@HIIPBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@std@@PAVEvent@1@@Z)
+WeatherTool.obj : error LNK2019: unresolved external symbol _clEnqueueNDRangeKernel@36 referenced in function "public: int __thiscall cl::CommandQueue::enqueueNDRangeKernel(class cl::Kernel const &,class cl::NDRange const &,class cl::NDRange const &,class cl::NDRange const &,class std::vector<class cl::Event,class std::allocator<class cl::Event> > const *,class cl::Event *)const " (?enqueueNDRangeKernel@CommandQueue@cl@@QBEHABVKernel@2@ABVNDRange@2@11PBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@std@@PAVEvent@2@@Z)
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\OpenCL.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\mrchr\Documents\Github\Paralell-Computing\Paralell-Computing Assignment\Debug\OpenCL Assignment.exe : fatal error LNK1120: 28 unresolved externals

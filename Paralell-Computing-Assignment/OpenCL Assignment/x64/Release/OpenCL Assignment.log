@@ -1,0 +1,43 @@
+﻿  WeatherTool.cpp
+c:\users\student\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(149): warning C4244: '=': conversion from '_Rep' to 'unsigned short', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\student\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(169): warning C4244: '=': conversion from '_Rep' to 'unsigned short', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\student\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(183): warning C4244: '=': conversion from '_Rep' to 'unsigned short', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\student\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(196): warning C4244: '=': conversion from '_Rep' to 'unsigned short', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\student\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(212): warning C4244: '=': conversion from '_Rep' to 'unsigned short', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\student\documents\github\paralell-computing\paralell-computing assignment\opencl assignment\weathertool.cpp(241): warning C4244: 'argument': conversion from '_Rep' to '_Ty', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+          and
+          [
+              _Ty=float
+          ]
+  Generating code
+  1 of 850 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  OpenCL Assignment.vcxproj -> C:\Users\Student\Documents\GitHub\Paralell-Computing\Paralell-Computing Assignment\x64\Release\OpenCL Assignment.exe
+  my_kernels.cl
+          1 file(s) copied.
